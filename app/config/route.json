@@ -1,0 +1,6 @@
+{
+    "/success" : "dest/data/success.json",
+    "/listinfo":"dest/data/listinfo.json",
+    "/activity/detail/getmyinfo.html":"dest/data/getmyinfo.json",
+    "/activity/detail/getcontact.html":"dest/data/getcontact.json"
+}

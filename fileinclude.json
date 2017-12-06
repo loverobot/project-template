@@ -1,0 +1,8 @@
+{
+    "set": {
+        "prefix": "<!--@@ ",
+        "suffix": " -->",
+        "basepath": "@file"
+    },
+    "staticHosts": "/"
+}

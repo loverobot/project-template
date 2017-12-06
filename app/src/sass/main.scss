@@ -1,0 +1,118 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background: #cccccc;
+    font-size: 12px;
+}
+
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.banner{
+	display: none;
+}
+@media (min-width: 768px) {
+    .banner {
+    	display: block;
+        height: 340px;
+        background: #333;
+        .swiper-container{
+            height:100%;
+        }
+    }
+}
+
+.content-wrap {
+    padding-top: 30px;
+    .container {
+        padding: 0;
+        margin: auto;
+    }
+}
+
+.news-wrap {
+    .new {
+        background: #fff;
+        padding: 20px;
+        margin: 0 0 20px 0;
+        .new-l,
+        .new-r {
+            float: left;
+        }
+        .new-l {
+            width: 32.78%;
+        }
+        .new-r {
+            padding-left: 15px;
+            line-height: 1.5;
+            width: 67.22%;
+        }
+        .new-label {
+            margin-top: 15px;
+            color: #ccc;
+        }
+        h1 {
+            padding: 0 0 10px 0;
+            margin: 0;
+            line-height: 1.5;
+            font-size: 1.5em;
+        }
+        a {
+            color: #000;
+        }
+        img {
+            width: 100%;
+        }
+        .new-content {
+            font-size: 1em;
+            line-height: 1.5;
+        }
+        span {
+            padding-right: 10px;
+        }
+        i {
+            margin-right: 5px;
+        }
+    }
+}
+
+aside {
+    .widget {
+        background: #fff;
+        padding: 15px;
+        margin-bottom: 20px;
+        h4 {
+            font-size: 1.5em;
+            padding-bottom: 10px;
+            border-bottom: solid 1px #ebebeb;
+            position: relative;
+            &:after {
+                content: "";
+                background: #ff7300;
+                height: 2px;
+                width: 30%;
+                bottom: -1px;
+                position: absolute;
+                left: 0;
+            }
+        }
+    }
+}
+
+.widget-content {
+    span {
+        display: inline-block;
+        font-size: 1em;
+        padding: 5px 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        background: #999;
+        color: #fff;
+        cursor: pointer;
+        &:hover {
+            background: #333;
+        }
+    }
+}
