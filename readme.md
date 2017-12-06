@@ -1,6 +1,7 @@
-#使用说明
+# 使用说明
 
-##目录
+## 目录
+
      |--app  //souce code
         |--pages
         |--modle
