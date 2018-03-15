@@ -1,5 +1,13 @@
 # 使用说明
-
+     npm install
+     npm install gulp
+     npm install bower
+     bower install
+     命令行使用说明
+     gulp ds 等于 gulp server 开发环境
+     gulp bs 等于 gulp build  打包入口
+     gulp ps 等于 gulp publish  封板部署
+####
 ## 目录
 
      |--app  //souce code
